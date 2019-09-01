@@ -2,7 +2,7 @@
   "name": "ludmilasigismondo.github.io",
   "version": "0.1.0",
   "private": true,
-  "homepage": "http://ludmilasigismondo.github.io/ludmilasigismondo.github.io",
+  "homepage": "https://ludmilasigismondo.github.io",
   "dependencies": {
     "antd": "^3.20.7",
     "gh-pages": "^2.1.1",
