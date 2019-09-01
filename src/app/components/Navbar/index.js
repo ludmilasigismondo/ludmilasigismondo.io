@@ -108,7 +108,7 @@ const Navbar = () => {
 
   return (
     <CustomLayoutHeader>
-      <Menu theme="light" defaultSelectedKeys={ selected } mode={ mode } style={{ border: 0 }}>
+      <Menu theme="light" defaultSelectedKeys={ selected } mode={ mode } style={{ lineHeight: '64px', border: 0 }}>
         <CustomSubmenuItem title="Paintings">
           <CustomMenuItem key="PixelArt">
             <CustomLink to="/paintings/pixel-art">Pixel Art</CustomLink>
