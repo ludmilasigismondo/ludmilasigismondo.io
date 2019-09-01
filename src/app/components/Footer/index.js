@@ -3,14 +3,14 @@ import { Icon } from 'antd';
 import styled from 'styled-components';
 
 const footerData = [{
-  url: 'mailto:ludmilasigismondo@gmail.com?Subject=Web%20contact',
-  icon: 'mail'
+  url  : 'mailto:ludmilasigismondo@gmail.com?Subject=Web%20contact',
+  icon : 'mail'
 }, {
-  url: 'https://www.instagram.com/ludmila.sigismondo/',
-  icon: 'instagram'
+  url  : 'https://www.instagram.com/ludmilasigismondo/',
+  icon : 'instagram'
 }, {
-  url: 'https://www.facebook.com/Ludmila-Sigismondo-1895859847326725/',
-  icon: 'facebook'
+  url  : 'https://www.facebook.com/Ludmila-Sigismondo-1895859847326725/',
+  icon : 'facebook'
 }];
 
 const FooterWrapper = styled.div`
