@@ -22,7 +22,7 @@ export class OilPortraits extends Component {
     return (
       <Wrapper>
         <Helmet>
-          <title>Ludmila Sigismondo | Paintings</title>
+          <title>Ludmila Sigismondo | Paintings: Oil Portraits</title>
           <meta http-equiv="X-UA-Compatible" content="IE=edge" />
           <meta name="apple-mobile-web-app-capable" content="yes" />
           <meta name="robots" content="INDEX, FOLLOW" />

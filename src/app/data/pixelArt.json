@@ -1,0 +1,46 @@
+{
+  "pixelArtDetail": [
+    {
+      "src"      : "/img/paintings/pixel-art/1.jpg",
+      "title"    : "Leeloo",
+      "year"     : "2015",
+      "type"     : "Oil and acrylic on canvas",
+      "messures" : "100 x 35 cm"
+    },
+    {
+      "src"      : "/img/paintings/pixel-art/2.jpg",
+      "title"    : "Untitled",
+      "year"     : "2016",
+      "type"     : "Oil and acrylic on canvas",
+      "messures" : "40 x 40 cm"
+    },
+    {
+      "src"      : "/img/paintings/pixel-art/3.jpg",
+      "title"    : "Andreja I",
+      "year"     : "2012",
+      "type"     : "Acrylic on canvas",
+      "messures" : "70 x 40 cm"
+    },
+    {
+      "src"      : "/img/paintings/pixel-art/4.jpg",
+      "title"    : "Andreja II",
+      "year"     : "2012",
+      "type"     : "Acrylic on canvas",
+      "messures" : "50 x 70 cm"
+    },
+    {
+      "src"      : "/img/paintings/pixel-art/5.jpg",
+      "title"    : "Andreja III",
+      "year"     : "2013",
+      "type"     : "Acrylic on canvas",
+      "messures" : "50 x 70 cm"
+    },
+    {
+      "src"      : "/img/paintings/pixel-art/6.jpg",
+      "title"    : "Andreja IV",
+      "year"     : "2012",
+      "type"     : "Acrylic on canvas",
+      "messures" : "70 x 35 cm"
+    }
+  ]
+}

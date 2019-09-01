@@ -12,8 +12,8 @@ const Img = styled.img`
 `;
 
 const Gallery = styled.img`
-  /*display          : block;
-  margin           : 0 auto;*/
+  display          : block;
+  margin           : 0 auto;
   max-width        : 100%;
   
   background-color : #fafafa;

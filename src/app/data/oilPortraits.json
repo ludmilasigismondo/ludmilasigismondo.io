@@ -1,21 +1,21 @@
 {
   "paintingsDetail": [
     {
-      "src"      : "/img/paintings/1.jpg",
+      "src"      : "/img/paintings/portraits/1.jpg",
       "title"    : "Liza",
       "year"     : "2014",
       "type"     : "Oil on canvas",
       "messures" : "20 x 30 cm"
     },
     {
-      "src"      : "/img/paintings/2.jpg",
+      "src"      : "/img/paintings/portraits/2.jpg",
       "title"    : "Khaleesi",
       "year"     : "2015",
       "type"     : "Oil on canvas",
       "messures" : "45 x 30 cm"
     },
     {
-      "src"      : "/img/paintings/3.jpg",
+      "src"      : "/img/paintings/portraits/3.jpg",
       "title"    : "Self Portrait",
       "year"     : "2019",
       "type"     : "Oil on canvas",

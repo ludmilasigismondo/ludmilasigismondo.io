@@ -7,22 +7,45 @@ import { UseWindowDimensions } from '../../utils';
 
 const R_SIZE = 500
 
-const styleMenu = {
-  lineHeight : '64px',
-  textAlign  : 'center',
-  border     : '0'
-}
-
 const CustomLayoutHeader = styled(Layout.Header)`
   background  : #fff !important;
   height      : initial !important;
   padding     : 0 1px !important;
+  text-align  : left !important;
   line-height : 64px !important;
 
   @media (min-width: ${ R_SIZE }px) {
     height      : 64px !important;
     padding     : 0 50px !important;
-    line-height : 64px !important;
+    text-align  : center !important;
+  }
+`
+
+const CustomSubmenuItem = styled(Menu.SubMenu)`
+  font-family    : 'Playfair Display';
+  letter-spacing : 1px;
+  font-weight    : 500 !important
+  color          : #999 !important;;
+
+  :hover {
+    border-color : #E0E0E0 !important;
+  }
+
+  &.ant-menu-submenu-active,
+  &.ant-menu-submenu-open,
+  &.ant-menu-submenu-selected,
+  &.ant-menu-item-selected {
+    border-color: #BDBDBD !important;
+  }
+
+  &.ant-menu-item-selected a {
+    color: #222 !important;
+  }
+
+  &.ant-menu-submenu-active,
+  &.ant-menu-submenu-open,
+  &:hover a {
+    color: #222 !important;
   }
 `
 
@@ -37,7 +60,8 @@ const CustomMenuItem = styled(Menu.Item)`
   &.ant-menu-item-selected {
     border-color: #BDBDBD !important;
   }
-  
+ 
+  &.ant-menu-item-active,
   &.ant-menu-item-selected a {
     color: #222 !important;
   }
@@ -61,16 +85,20 @@ const Navbar = () => {
 
   switch (path) {
     case '/':
-    case '/paintings': {
-      selected = ['Paintings'];
+    case '/paintings/portraits': {
+      selected = [ 'OilPortraits' ];
+      break;
+    }
+    case '/paintings/pixel-art': {
+      selected = [ 'PixelArt' ];
       break;
     }
     case '/drawings': {
-      selected = ['Drawings'];
+      selected = [ 'Drawings' ];
       break;
     }
     case '/about': {
-      selected = ['About'];
+      selected = [ 'About' ];
       break;
     }
     default: {
@@ -80,10 +108,15 @@ const Navbar = () => {
 
   return (
     <CustomLayoutHeader>
-      <Menu theme="light" defaultSelectedKeys={ selected } mode={ mode } style={ styleMenu }>
-        <CustomMenuItem key="Paintings">
-          <CustomLink to="/paintings">Paintings</CustomLink>
-        </CustomMenuItem>
+      <Menu theme="light" defaultSelectedKeys={ selected } mode={ mode } style={{ border: 0 }}>
+        <CustomSubmenuItem title="Paintings">
+          <CustomMenuItem key="PixelArt">
+            <CustomLink to="/paintings/pixel-art">Pixel Art</CustomLink>
+          </CustomMenuItem>
+          <CustomMenuItem key="OilPortraits">
+            <CustomLink to="/paintings/portraits">Portraits</CustomLink>
+          </CustomMenuItem>
+        </CustomSubmenuItem>
 
         <CustomMenuItem key="Drawings">
           <CustomLink to="/drawings">Drawings</CustomLink>
