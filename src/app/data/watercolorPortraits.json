@@ -1,0 +1,88 @@
+{
+  "drawingsDetail": [
+    {
+      "src"      : "/img/drawings/1.jpg",
+      "title"    : "Petra",
+      "year"     : "2016",
+      "type"     : "Watercolor on paper",
+      "messures" : "21 x 13.5 cm"
+    },
+    {
+      "src"      : "/img/drawings/2.jpg",
+      "title"    : "Celeste",
+      "year"     : "2015",
+      "type"     : "Watercolor on paper",
+      "messures" : "13.5 x 21 cm"
+    },
+    {
+      "src"      : "/img/drawings/3.jpg",
+      "title"    : "Girl",
+      "year"     : "2017",
+      "type"     : "Watercolor on paper",
+      "messures" : "13.5 x 21 cm"
+    },
+    {
+      "src"      : "/img/drawings/4.jpg",
+      "title"    : "Lola",
+      "year"     : "2016",
+      "type"     : "Watercolor on paper",
+      "messures" : "13.5 x 21 cm"
+    },
+    {
+      "src"      : "/img/drawings/5.jpg",
+      "title"    : "David Bowie",
+      "year"     : "2017",
+      "type"     : "Watercolor on paper",
+      "messures" : "18 x 25 cm"
+    },
+    {
+      "src"      : "/img/drawings/6.jpg",
+      "title"    : "Ana",
+      "year"     : "2017",
+      "type"     : "Watercolor on paper",
+      "messures" : "13.5 x 21 cm"
+    },
+    {
+      "src"      : "/img/drawings/7.jpg",
+      "title"    : "Goat",
+      "year"     : "2018",
+      "type"     : "Watercolor on paper",
+      "messures" : "13.5 x 21 cm"
+    },
+    {
+      "src"      : "/img/drawings/8.jpg",
+      "title"    : "Renata",
+      "year"     : "2016",
+      "type"     : "Watercolor on paper",
+      "messures" : "13.5 x 21 cm"
+    },
+    {
+      "src"      : "/img/drawings/9.jpg",
+      "title"    : "Chiara",
+      "year"     : "2016",
+      "type"     : "Watercolor on paper",
+      "messures" : "13.5 x 21 cm"
+    },
+    {
+      "src"      : "/img/drawings/10.jpg",
+      "title"    : "Liza",
+      "year"     : "2016",
+      "type"     : "Watercolor on paper",
+      "messures" : "13.5 x 21 cm"
+    },
+    {
+      "src"      : "/img/drawings/11.jpg",
+      "title"    : "Ana",
+      "year"     : "2017",
+      "type"     : "Watercolor on paper",
+      "messures" : "13.5 x 21 cm"
+    },
+    {
+      "src"      : "/img/drawings/12.jpg",
+      "title"    : "John Lennon",
+      "year"     : "2017",
+      "type"     : "Watercolor on paper",
+      "messures" : "13.5 x 21 cm"
+    }
+  ]
+}
