@@ -207,7 +207,7 @@ export class About extends Component {
             in London.
           </MainTitle>
 
-          <CarouselComponent></CarouselComponent>
+          <GalleryItem src="/img/slider/slide1.png" />
 
           <Row>
             <Col sm={{ span: 22, offset: 2 }} md={{ span: 20, offset: 4 }} lg={{ span: 18, offset: 6 }}>
