@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/static/css/main.cc381547.chunk.css",
-    "main.js": "/static/js/main.db0616a2.chunk.js",
-    "main.js.map": "/static/js/main.db0616a2.chunk.js.map",
-    "runtime~main.js": "/static/js/runtime~main.a8a9905a.js",
-    "runtime~main.js.map": "/static/js/runtime~main.a8a9905a.js.map",
-    "static/css/2.7a1db334.chunk.css": "/static/css/2.7a1db334.chunk.css",
-    "static/js/2.a1cbd492.chunk.js": "/static/js/2.a1cbd492.chunk.js",
-    "static/js/2.a1cbd492.chunk.js.map": "/static/js/2.a1cbd492.chunk.js.map",
-    "index.html": "/index.html",
-    "precache-manifest.c262a7c6b27c6dcd1e08d2120dacde60.js": "/precache-manifest.c262a7c6b27c6dcd1e08d2120dacde60.js",
-    "service-worker.js": "/service-worker.js",
-    "static/css/2.7a1db334.chunk.css.map": "/static/css/2.7a1db334.chunk.css.map",
-    "static/css/main.cc381547.chunk.css.map": "/static/css/main.cc381547.chunk.css.map"
+    "main.css": "/ludmilasigismondo.github.io/static/css/main.cc381547.chunk.css",
+    "main.js": "/ludmilasigismondo.github.io/static/js/main.6c41059f.chunk.js",
+    "main.js.map": "/ludmilasigismondo.github.io/static/js/main.6c41059f.chunk.js.map",
+    "runtime~main.js": "/ludmilasigismondo.github.io/static/js/runtime~main.b115703e.js",
+    "runtime~main.js.map": "/ludmilasigismondo.github.io/static/js/runtime~main.b115703e.js.map",
+    "static/css/2.7a1db334.chunk.css": "/ludmilasigismondo.github.io/static/css/2.7a1db334.chunk.css",
+    "static/js/2.467cf8e7.chunk.js": "/ludmilasigismondo.github.io/static/js/2.467cf8e7.chunk.js",
+    "static/js/2.467cf8e7.chunk.js.map": "/ludmilasigismondo.github.io/static/js/2.467cf8e7.chunk.js.map",
+    "index.html": "/ludmilasigismondo.github.io/index.html",
+    "precache-manifest.0acb9d5dd9ca8e4e000d2e03ec2d784b.js": "/ludmilasigismondo.github.io/precache-manifest.0acb9d5dd9ca8e4e000d2e03ec2d784b.js",
+    "service-worker.js": "/ludmilasigismondo.github.io/service-worker.js",
+    "static/css/2.7a1db334.chunk.css.map": "/ludmilasigismondo.github.io/static/css/2.7a1db334.chunk.css.map",
+    "static/css/main.cc381547.chunk.css.map": "/ludmilasigismondo.github.io/static/css/main.cc381547.chunk.css.map"
   }
 }
