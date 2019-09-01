@@ -19,6 +19,23 @@ export class PixelArt extends Component {
       659: 1
     };
 
+    /*
+      <Paragraph>
+        Pixel<br></br>
+        or<br></br>
+        Pixels...<br></br>
+        A Pixel is the smallest homogeneous unit of color of a digital image.<br></br>
+        I’ve been obsessed trying to reproduce pixelated images with pigments for months. This
+        ambition led me to paint compulsively...<br></br>
+        At first, it seemed that small units of matter were graciously scattered around through the
+        canvas. This resulted in an endless colour variable. In the end, what I see is an image
+        composed of infinite combinations of hue, value and saturation...<br></br>
+        The eye reconstructs that which vanishes... but we are no longer able to see the image as
+        a whole.<br></br>
+        In the long run, only colour remains...
+      </Paragraph>
+    */
+
     return (
       <Wrapper>
         <Helmet>
@@ -42,21 +59,6 @@ export class PixelArt extends Component {
 
         <Section>
           <MainTitle>Paintings<br></br>Pixel Art</MainTitle>
-
-          <Paragraph>
-            Pixel<br></br>
-            or<br></br>
-            Pixels...<br></br>
-            A Pixel is the smallest homogeneous unit of color of a digital image.<br></br>
-            I’ve been obsessed trying to reproduce pixelated images with pigments for months. This
-            ambition led me to paint compulsively...<br></br>
-            At first, it seemed that small units of matter were graciously scattered around through the
-            canvas. This resulted in an endless colour variable. In the end, what I see is an image
-            composed of infinite combinations of hue, value and saturation...<br></br>
-            The eye reconstructs that which vanishes... but we are no longer able to see the image as
-            a whole.<br></br>
-            In the long run, only colour remains...
-          </Paragraph>
 
           <Masonry breakpointCols={ breakpointColumnsObj } className="my-masonry-grid" columnClassName="my-masonry-grid_column">
             { pixelArtDetail.map(GalleryMappedFunction) }
