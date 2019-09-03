@@ -1,0 +1,67 @@
+{
+  "illustrationsDetail": [
+    {
+      "src"      : "/img/illustrations/1.jpg",
+      "title"    : "The six eyes girl",
+      "year"     : "2018",
+      "type"     : "Watercolor on paper",
+      "messures" : "31.5 x 21.5 cm"
+    },
+    {
+      "src"      : "/img/illustrations/2.jpg",
+      "title"    : "Your eyes are for me",
+      "year"     : "2018",
+      "type"     : "Watercolor on paper",
+      "messures" : "31.5 x 21.5 cm"
+    },
+    {
+      "src"      : "/img/illustrations/3.jpg",
+      "title"    : "Human centipede",
+      "year"     : "2018",
+      "type"     : "Watercolor on paper",
+      "messures" : "31.5 x 21.5 cm"
+    },
+    {
+      "src"      : "/img/illustrations/4.jpg",
+      "title"    : "Of hats and birds",
+      "year"     : "2018",
+      "type"     : "Watercolor on paper",
+      "messures" : "31.5 x 21.5 cm"
+    },
+    {
+      "src"      : "/img/illustrations/5.jpg",
+      "title"    : "The girl and the cat",
+      "year"     : "2018",
+      "type"     : "Watercolor on paper",
+      "messures" : "31.5 x 21.5 cm"
+    },
+    {
+      "src"      : "/img/illustrations/6.jpg",
+      "title"    : "Moon Girl",
+      "year"     : "2017",
+      "type"     : "Watercolor on paper",
+      "messures" : "13.5 x 21 cm"
+    },
+    {
+      "src"      : "/img/illustrations/7.jpg",
+      "title"    : "Bird",
+      "year"     : "2016",
+      "type"     : "Watercolor on paper",
+      "messures" : "15 x 21 cm"
+    },
+    {
+      "src"      : "/img/illustrations/8.jpg",
+      "title"    : "Flower",
+      "year"     : "2017",
+      "type"     : "Watercolor on paper",
+      "messures" : "15 x 21 cm"
+    },
+    {
+      "src"      : "/img/illustrations/9.jpg",
+      "title"    : "Untitled",
+      "year"     : "2018",
+      "type"     : "Watercolor on paper",
+      "messures" : "15 x 21 cm"
+    }
+  ]
+}

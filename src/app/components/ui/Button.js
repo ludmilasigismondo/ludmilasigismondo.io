@@ -15,15 +15,4 @@ export const ButtonDownload = styled(Button)`
   & small {
     margin-left: 5px;
   }
-
-  .dark-theme & {
-    border-color: #f0f0f0 !important;
-    background-color: #111 !important;
-    color: #f0f0f0 !important;
-  }
-
-  .dark-theme &:hover {
-    background-color: #f0f0f0 !important;
-    color: #111 !important;
-  }
 `;

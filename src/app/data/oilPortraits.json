@@ -8,16 +8,23 @@
       "messures" : "20 x 30 cm"
     },
     {
-      "src"      : "/img/paintings/portraits/2.jpg",
-      "title"    : "Khaleesi",
-      "year"     : "2015",
+      "src"      : "/img/paintings/portraits/4.jpg",
+      "title"    : "Untitled",
+      "year"     : "2016",
       "type"     : "Oil on canvas",
-      "messures" : "45 x 30 cm"
+      "messures" : "90 x 80 cm"
     },
     {
       "src"      : "/img/paintings/portraits/3.jpg",
       "title"    : "Self Portrait",
       "year"     : "2019",
+      "type"     : "Oil on canvas",
+      "messures" : "45 x 30 cm"
+    },
+    {
+      "src"      : "/img/paintings/portraits/2.jpg",
+      "title"    : "Khaleesi",
+      "year"     : "2015",
       "type"     : "Oil on canvas",
       "messures" : "45 x 30 cm"
     }

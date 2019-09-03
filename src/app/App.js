@@ -20,6 +20,7 @@ export const App = () =>
       <Route path="/paintings/pixel-art" component={ Views.PixelArt } />
       <Route path="/paintings/portraits" component={ Views.OilPortraits } />
       <Route path="/drawings" component={ Views.WatercolorPortraits } />
+      <Route path="/illustrations" component={ Views.Illustrations } />
       <Route path="/about" component={ Views.About } />
       <Route component={ Views.NoMatch } />
     </Switch>

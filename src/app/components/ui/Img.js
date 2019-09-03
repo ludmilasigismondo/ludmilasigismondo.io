@@ -2,8 +2,18 @@ import React from 'react';
 import styled from 'styled-components';
 import { Link } from 'react-router-dom';
 
+
+const R_SIZE = 792
+  
 const ImgWrapper = styled.div`
   background-color : #fafafa;
+  margin           : -110px auto -70px;
+  max-width        : 1200px;
+  padding          : 0;
+  
+  @media (min-width: ${ R_SIZE }px) {
+    padding: 0 24px;
+  }
 `;
 
 const Img = styled.img`
@@ -13,7 +23,7 @@ const Img = styled.img`
 
 const Gallery = styled.img`
   display          : block;
-  margin           : 0 auto;
+  margin           : 0 auto 10px;
   max-width        : 100%;
   
   background-color : #fafafa;
@@ -53,7 +63,7 @@ const PreviewImgStyled = styled.div`
 
 const Detail = styled.div`
   text-align : center;
-  margin     : 10px 0 60px;
+  margin     : 0 0 60px;
 
   .dark-theme & {
     color: #f0f0f0 !important;

@@ -44,6 +44,8 @@ const CustomSubmenuItem = styled(Menu.SubMenu)`
 
   &.ant-menu-submenu-active,
   &.ant-menu-submenu-open,
+
+  &:hover div,
   &:hover a {
     color: #222 !important;
   }
@@ -97,6 +99,10 @@ const Navbar = () => {
       selected = [ 'Drawings' ];
       break;
     }
+    case '/illustrations': {
+      selected = [ 'Illustrations' ];
+      break;
+    }
     case '/about': {
       selected = [ 'About' ];
       break;
@@ -120,6 +126,10 @@ const Navbar = () => {
 
         <CustomMenuItem key="Drawings">
           <CustomLink to="/drawings">Drawings</CustomLink>
+        </CustomMenuItem>
+
+        <CustomMenuItem key="Illustrations">
+          <CustomLink to="/illustrations">Illustrations</CustomLink>
         </CustomMenuItem>
 
         <CustomMenuItem key="About">

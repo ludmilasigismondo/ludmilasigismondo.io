@@ -180,73 +180,79 @@ const BasicInfo = ({t, d, y}, i) => {
 export class About extends Component {
   render() {
     return(
-      <Wrapper>
-        <Helmet>
-          <title>Ludmila Sigismondo | About Me</title>
-          <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-          <meta name="apple-mobile-web-app-capable" content="yes" />
-          <meta name="robots" content="INDEX, FOLLOW" />
-          <meta name="description" content="Ludmila Sigismondo full biography, artist based in UK" />
-          <meta name="country" content="UK" />
-          <meta name="Keywords" content="artista - artist - drawings - paintings - ludmila sigismondo - ludmila - sigismondo - painter - fine arts - ludmilasigismondo" />
-          <meta property="og:image" content="http://ludmilasigismondo.com/img/ludmila.jpg" />
-          <meta property="og:title" content="Ludmila Sigismondo | About Me" />
-          <meta property="og:site_name" content="ludmilasigismondo.com" />
-          <meta property="og:url" content="http://ludmilasigismondo.com" />
-          <meta property="og:description" content="Personal biography" />
-          <meta property="og:type" content="website" />
-          <meta name="twitter:card" content="summary_large_image" />
-          <meta property="og:site_name" content="Ludmila Sigismondo | About Me" />
-          <meta name="twitter:image:alt" content="Ludmila Sigismondo" />
-        </Helmet>
+      <div>
+        <Wrapper>
+          <Helmet>
+            <title>Ludmila Sigismondo | About Me</title>
+            <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+            <meta name="apple-mobile-web-app-capable" content="yes" />
+            <meta name="robots" content="INDEX, FOLLOW" />
+            <meta name="description" content="Ludmila Sigismondo full biography, artist based in UK" />
+            <meta name="country" content="UK" />
+            <meta name="Keywords" content="artista - artist - drawings - paintings - ludmila sigismondo - ludmila - sigismondo - painter - fine arts - ludmilasigismondo" />
+            <meta property="og:image" content="http://ludmilasigismondo.com/img/ludmila.jpg" />
+            <meta property="og:title" content="Ludmila Sigismondo | About Me" />
+            <meta property="og:site_name" content="ludmilasigismondo.com" />
+            <meta property="og:url" content="http://ludmilasigismondo.com" />
+            <meta property="og:description" content="Personal biography" />
+            <meta property="og:type" content="website" />
+            <meta name="twitter:card" content="summary_large_image" />
+            <meta property="og:site_name" content="Ludmila Sigismondo | About Me" />
+            <meta name="twitter:image:alt" content="Ludmila Sigismondo" />
+          </Helmet>
 
-        <Section>
-          <MainTitle>
-            Hey there, I'm Ludmila Sigismondo.<br></br>
-            I'm an artist working and living 
-            in London.
-          </MainTitle>
+          <Section>
+            <MainTitle>
+              Hello there! I am Ludmila Sigismondo,<br></br>
+              an artist working and living 
+              in London.
+            </MainTitle>
+          </Section>
+        </Wrapper>
 
-          <GalleryItem src="/img/slider/slide1.png" />
+        <GalleryItem src="/img/ludmila.jpg" />
 
-          <Row>
-            <Col sm={{ span: 22, offset: 2 }} md={{ span: 20, offset: 4 }} lg={{ span: 18, offset: 6 }}>
-              <Paragraph>
-                I was born in Rosario, Santa Fe province, Argentina in 1990.
-                Since my father is an artist I spent most of my childhood
-                surrounded by paintings and art books.
-                In my house there were paint stains everywhere.
-                I spent my daily life in my father's atelier and this gave me
-                the opportunity to experiment with various materials.
-                In this sense, painting was very much like a game for
-                me and I enjoyed it greatly.
-                <br></br><br></br>
-                This environment was a decisive influence, leading me later to
-                embark on a career in Fine Arts at university.
-                Later on, those early experiences with oil painting helped me
-                in my studies enormously.
-                <br></br><br></br>
-                College provided me the opportunity to improve my skills and
-                learn from both teachers and classmates.
-                It was in those college years that I painted my 
-                <i>"Pixel Art"</i> and <i>"Nocturnal Portraits"</i> series.
-              </Paragraph>
-            </Col>
-          </Row>
+        <Wrapper>
+          <Section>
+            <Row>
+              <Col sm={{ span: 22, offset: 2 }} md={{ span: 20, offset: 4 }} lg={{ span: 18, offset: 6 }}>
+                <Paragraph>
+                  I was born in Rosario, Santa Fe province, Argentina in 1990.
+                  Since my father is an artist I spent most of my childhood
+                  surrounded by paintings and art books.
+                  In my house there were paint stains everywhere.
+                  I spent my daily life in my father's atelier and this gave me
+                  the opportunity to experiment with various materials.
+                  In this sense, painting was very much like a game for
+                  me and I enjoyed it greatly.
+                  <br></br><br></br>
+                  This environment was a decisive influence, leading me later to
+                  embark on a career in Fine Arts at university.
+                  Later on, those early experiences with oil painting helped me
+                  in my studies enormously.
+                  <br></br><br></br>
+                  College provided me the opportunity to improve my skills and
+                  learn from both teachers and classmates.
+                  It was in those college years that I painted my 
+                  <i>"Pixel Art"</i> and <i>"Nocturnal Portraits"</i> series.
+                </Paragraph>
+              </Col>
+            </Row>
 
-          <Row>
-            <Col sm={{ span: 10, offset: 2 }} md={{ span: 9, offset: 4 }} lg={{ span: 8, offset: 6 }}>
-              <SecondaryTitle>Exhibitions</SecondaryTitle>
-              { exhibitionData.map(BasicInfo) }
-            </Col>
+            <Row>
+              <Col sm={{ span: 10, offset: 2 }} md={{ span: 9, offset: 4 }} lg={{ span: 8, offset: 6 }}>
+                <SecondaryTitle>Exhibitions</SecondaryTitle>
+                { exhibitionData.map(BasicInfo) }
+              </Col>
 
-            <Col sm={{ span: 10, offset: 2 }} md={{ span: 9, offset: 2 }} lg={{ span: 8, offset: 2 }}>
-              <SecondaryTitle>Education</SecondaryTitle>
-              { educationData.map(BasicInfo) }
-            </Col>
-          </Row>
-        </Section>
-      </Wrapper>
+              <Col sm={{ span: 10, offset: 2 }} md={{ span: 9, offset: 2 }} lg={{ span: 8, offset: 2 }}>
+                <SecondaryTitle>Education</SecondaryTitle>
+                { educationData.map(BasicInfo) }
+              </Col>
+            </Row>
+          </Section>
+        </Wrapper>
+      </div>
     )
   }
 };
