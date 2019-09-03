@@ -37,31 +37,24 @@
     },
     {
       "src"      : "/img/illustrations/6.jpg",
-      "title"    : "Moon Girl",
+      "title"    : "Rumpture",
       "year"     : "2017",
       "type"     : "Watercolor on paper",
-      "messures" : "13.5 x 21 cm"
+      "messures" : "42 x 30 cm"
     },
     {
       "src"      : "/img/illustrations/7.jpg",
-      "title"    : "Bird",
+      "title"    : "Mourning",
       "year"     : "2016",
       "type"     : "Watercolor on paper",
-      "messures" : "15 x 21 cm"
+      "messures" : "42 x 30 cm"
     },
     {
       "src"      : "/img/illustrations/8.jpg",
-      "title"    : "Flower",
+      "title"    : "Bird eyes",
       "year"     : "2017",
       "type"     : "Watercolor on paper",
-      "messures" : "15 x 21 cm"
-    },
-    {
-      "src"      : "/img/illustrations/9.jpg",
-      "title"    : "Untitled",
-      "year"     : "2018",
-      "type"     : "Watercolor on paper",
-      "messures" : "15 x 21 cm"
+      "messures" : "42 x 30 cm"
     }
   ]
 }
