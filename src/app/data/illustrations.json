@@ -1,5 +1,5 @@
 {
-  "illustrationsDetail": [
+  "onceUponATimeDetail": [
     {
       "src"      : "/img/illustrations/1.jpg",
       "title"    : "The six eyes girl",
@@ -34,7 +34,9 @@
       "year"     : "2018",
       "type"     : "Watercolor on paper",
       "messures" : "31.5 x 21.5 cm"
-    },
+    }
+  ],
+  "thisIsNotALoveStoryDetail": [
     {
       "src"      : "/img/illustrations/6.jpg",
       "title"    : "Rumpture",

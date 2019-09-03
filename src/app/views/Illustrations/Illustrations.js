@@ -6,7 +6,7 @@ import { MainTitle, Section, Wrapper } from '../../components/ui';
 // custom function
 import { GalleryMappedFunction } from '../../utils';
 // detail
-import { illustrationsDetail } from '../../data/illustrations';
+import { onceUponATimeDetail, thisIsNotALoveStoryDetail } from '../../data/illustrations';
 
 export class Illustrations extends Component {
   componentDidMount() {
@@ -46,11 +46,15 @@ export class Illustrations extends Component {
         </Helmet>
 
         <Section>
-          <MainTitle>Illustrations</MainTitle>
-
+          <MainTitle>Illustrations<br></br>Once upon a time</MainTitle>
           <Masonry breakpointCols={ breakpointColumnsObj } className="my-masonry-grid" columnClassName="my-masonry-grid_column">
-            { illustrationsDetail.map(GalleryMappedFunction) }
-          </Masonry>    
+            { onceUponATimeDetail.map(GalleryMappedFunction) }
+          </Masonry>
+
+          <MainTitle>This is not a love story</MainTitle>
+          <Masonry breakpointCols={ breakpointColumnsObj } className="my-masonry-grid" columnClassName="my-masonry-grid_column">
+            { thisIsNotALoveStoryDetail.map(GalleryMappedFunction) }
+          </Masonry>
         </Section>
       </Wrapper>
     )
