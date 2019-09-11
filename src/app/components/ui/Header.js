@@ -1,5 +1,6 @@
 import React from 'react';
 import styled from 'styled-components';
+import { NavLink } from 'react-router-dom';
 
 const HeaderWrapper = styled.section`
   padding          : 40px 10px;
@@ -12,10 +13,18 @@ const HeaderWrapper = styled.section`
     font-size      : 32px;
     text-align     : center;
     font-family    : 'Playfair Display';
-    color          : #222;
     font-weight    : 700;
     text-transform : uppercase;
     letter-spacing : 6px;
+  }
+
+  & h2 a {
+    color: #222;
+    transition: .3s !important;
+  }
+
+  & h2 a:hover {
+    color: #000;
   }
 
   & h2 small {
@@ -23,11 +32,20 @@ const HeaderWrapper = styled.section`
     color          : #999;
     font-weight    : 700;
     font-size      : 60%;
+    transition     : .3s !important;
+  }
+
+  & h2 a:hover small {
+    color: #777;
   }
 `;
 
 export const Header = () =>
   <HeaderWrapper>
-    <h2>Ludmila<br></br>Sigismondo <small>artist</small></h2>
+    <h2>
+      <NavLink to="/">
+        Ludmila<br></br>Sigismondo <small>artist</small>
+      </NavLink>
+    </h2>
   </HeaderWrapper>
 

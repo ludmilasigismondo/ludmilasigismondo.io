@@ -25,19 +25,6 @@ export class Home extends Component {
       <Wrapper>
         <Section>
           <SecondaryTitle center>Featured Work</SecondaryTitle>
-
-          <Row>
-            {
-              previewData.map(({ url, title, src }, i) =>
-                <Col key={ i } sm={ sm }>
-                  <PreviewImg url={ url }
-                    title={ title }
-                    src={ src }
-                  />
-                </Col>
-              )
-            }
-          </Row>
         </Section>
       </Wrapper>
     )

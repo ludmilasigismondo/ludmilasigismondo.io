@@ -86,6 +86,9 @@ const Navbar = () => {
   let selected = [];
 
   switch (path) {
+    // case '/': {
+    //   break;
+    // }
     case '/':
     case '/paintings/portraits': {
       selected = [ 'OilPortraits' ];

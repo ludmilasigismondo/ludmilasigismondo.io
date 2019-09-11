@@ -16,7 +16,7 @@ export const App = () =>
     <Navbar />
 
     <Switch>
-      <Route path="/" exact component={ Views.OilPortraits } />
+      <Route path="/" exact component={ Views.PixelArt } />
       <Route path="/paintings/pixel-art" component={ Views.PixelArt } />
       <Route path="/paintings/portraits" component={ Views.OilPortraits } />
       <Route path="/drawings" component={ Views.WatercolorPortraits } />
