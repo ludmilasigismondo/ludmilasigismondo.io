@@ -23,13 +23,15 @@ const Img = styled.img`
 
 const Gallery = styled.img`
   display          : block;
-  margin           : 0 auto 10px;
+  margin           : 0 auto 5px;
   max-width        : 100%;
   
   background-color : #fafafa;
+  /*
   box-shadow       : 0 4px 5px 0 rgba(0, 0, 0, .14),
                      0 1px 10px 0 rgba(0, 0, 0, .12),
                      0 2px 4px -1px rgba(0, 0, 0, .3);
+  */
 `;
 
 const PreviewImgStyled = styled.div`
@@ -62,7 +64,6 @@ const PreviewImgStyled = styled.div`
 `;
 
 const Detail = styled.div`
-  text-align : center;
   margin     : 0 0 60px;
 
   .dark-theme & {
@@ -72,11 +73,11 @@ const Detail = styled.div`
 
 const TitlePaint = styled.span`
   font-weight : 700;
-  font-style  : italic;
 `;
 
 const BlockText = styled.span`
   display: block;
+  font-size: 80%;
 `;
 
 export const GalleryItem = (props) => {
@@ -93,8 +94,8 @@ export const GalleryItem = (props) => {
       <div>
         <Gallery src={ src } />
         <Detail>
-          <TitlePaint>{ title }</TitlePaint> ({ year })
-          <BlockText>{ type }</BlockText>
+          <TitlePaint>{ title }</TitlePaint>
+          <BlockText>{ year } - { type }</BlockText>
           <BlockText>{ messures }</BlockText>
         </Detail>
       </div>

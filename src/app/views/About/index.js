@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import { Carousel, Row, Col, Icon } from 'antd';
+import { Row, Col } from 'antd';
 import styled from 'styled-components';
 import { Helmet } from 'react-helmet';
 // custom componentes
@@ -75,81 +75,6 @@ const educationData = [
     y: '2006'
   }
 ]
-
-const CarouselWrapper = styled.div`
-  position      : relative;
-  margin-bottom : 50px;
-`;
-const ButtonCarousel  = styled.button`
-  z-index            : 1;
-  border             : 0;
-  cursor             : pointer;
-  position           : absolute;
-  top                : 50%;
-  outline            : none;
-  color              : #eee !important;
-  font-size          : 20px;
-  line-height        : 40px;
-  margin-top         : -30px;
-  background-color   : rgba(0, 0, 0, 0.45);
-  display            : inline-block;
-  padding            : 20px 15px;
-  -webkit-transition : all 200ms cubic-bezier(.25, .46, .45, .94);
-  transition         : all 200ms cubic-bezier(.25, .46, .45, .94);
-  right              : ${ (props) => !!props.right ? 0 : 'initial' };
-  left               : ${ (props) => !!props.left ? 0 : 'initial' };
-
-  :hover {
-    background-color: rgba(0, 0, 0, 0.65);
-  }
-`;
-
-class CarouselComponent extends Component {
-  constructor(props) {
-    super(props);
-    this.next     = this.next.bind(this);
-    this.previous = this.previous.bind(this);
-    this.carousel = React.createRef();
-  };
-
-  next() {
-    this.carousel.next();
-  };
-
-  previous() {
-    this.carousel.prev();
-  };
-
-  render() {
-    const props = {
-      dots           : false,
-      slidesToShow   : 1,
-      slidesToScroll : 1,
-      effect         : 'fade'
-    };
-
-    return(
-      <CarouselWrapper>
-        <ButtonCarousel left onClick={ this.previous }>
-          <Icon type="caret-left" />
-        </ButtonCarousel>
-
-        <ButtonCarousel right onClick={ this.next }>
-          <Icon type="caret-right" />
-        </ButtonCarousel>
-
-        <Carousel ref={ node => (this.carousel = node) } { ...props }>
-          <GalleryItem src="/img/slider/slide1.png" />
-          <GalleryItem src="/img/slider/slide2.png" />
-          <GalleryItem src="/img/slider/slide3.png" />
-          <GalleryItem src="/img/slider/slide4.png" />
-          <GalleryItem src="/img/slider/slide5.png" />
-          <GalleryItem src="/img/slider/slide6.png" />
-        </Carousel>
-      </CarouselWrapper>
-    )
-  };
-};
 
 const BasicInfoStyled = styled.p`
   font-size: 16px;

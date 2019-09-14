@@ -40,12 +40,14 @@ const HeaderWrapper = styled.section`
   }
 `;
 
-export const Header = () =>
-  <HeaderWrapper>
-    <h2>
-      <NavLink to="/">
-        Ludmila<br></br>Sigismondo <small>artist</small>
-      </NavLink>
-    </h2>
-  </HeaderWrapper>
-
+export const Header = () => {
+  return(
+    <HeaderWrapper>
+      <h2>
+        <NavLink to="/">
+          Ludmila<br></br>Sigismondo <small>artist</small>
+        </NavLink>
+      </h2>
+    </HeaderWrapper>
+  )
+}

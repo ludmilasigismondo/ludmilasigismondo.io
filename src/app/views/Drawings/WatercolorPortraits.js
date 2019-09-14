@@ -46,7 +46,10 @@ export class WatercolorPortraits extends Component {
         </Helmet>
 
         <Section>
-          <MainTitle>Drawings<br></br>Watercolor Portraits</MainTitle>
+          <MainTitle>
+            <small>Drawings</small>
+            Watercolor Portraits
+          </MainTitle>
 
           <Masonry breakpointCols={ breakpointColumnsObj } className="my-masonry-grid" columnClassName="my-masonry-grid_column">
             { drawingsDetail.map(GalleryMappedFunction) }

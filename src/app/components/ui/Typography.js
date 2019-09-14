@@ -2,13 +2,17 @@ import styled from 'styled-components';
 
 export const MainTitle = styled.h2`
   font-family   : 'Playfair Display';
-  font-size     : 28px;
+  font-size     : 34px;
   color         : #323232;
   margin-bottom : 40px;
   font-weight   : 700;
 
-  .dark-theme & {
-    color: #f0f0f0;
+  & small {
+    display        : block;
+    color          : #999;
+    font-size      : 70%;
+    font-weight    : 400;
+    letter-spacing : .4px;
   }
 `;
 
@@ -24,8 +28,4 @@ export const Paragraph = styled.p`
   font-size      : 16px;
   letter-spacing : .3px;
   margin-bottom  : 40px;
-
-  .dark-theme & {
-    color: #f0f0f0;
-  }
 `;

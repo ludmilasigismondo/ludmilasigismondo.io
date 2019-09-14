@@ -46,7 +46,10 @@ export class Illustrations extends Component {
         </Helmet>
 
         <Section>
-          <MainTitle>Illustrations<br></br>Once upon a time</MainTitle>
+          <MainTitle>
+            <small>Illustrations</small>
+            Once upon a time
+          </MainTitle>
           <Masonry breakpointCols={ breakpointColumnsObj } className="my-masonry-grid" columnClassName="my-masonry-grid_column">
             { onceUponATimeDetail.map(GalleryMappedFunction) }
           </Masonry>

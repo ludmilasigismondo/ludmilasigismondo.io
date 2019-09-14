@@ -41,7 +41,10 @@ export class OilPortraits extends Component {
         </Helmet>
 
         <Section>
-          <MainTitle>Paintings<br></br>Oil Portraits</MainTitle>
+          <MainTitle>
+            <small>Paintings</small>
+            Oil Portraits
+          </MainTitle>
 
           <Masonry breakpointCols={ breakpointColumnsObj } className="my-masonry-grid" columnClassName="my-masonry-grid_column">
             { paintingsDetail.map(GalleryMappedFunction) }

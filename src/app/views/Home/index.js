@@ -1,32 +1,38 @@
 import React, { Component } from 'react';
-import { Row, Col } from 'antd';
-// custom componentes
-import { PreviewImg, Wrapper, Section, SecondaryTitle } from '../../components/ui';
+import styled from 'styled-components';
+// custom function
+import { CategoryMappedFunction } from '../../utils';
 
-const previewData = [{
-  url: '/drawings/watercolor/various',
-  title: 'Watercolor Various',
-  src: '/img/preview/01.png'
-}, {
-  url: '/drawings/watercolor/once-upon-a-time',
-  title: 'Once Upon a Time',
-  src: '/img/preview/02.png'
-}, {
-  url: '/drawings/sketches',
-  title: 'Sketches',
-  src: '/img/preview/03.png'
-}];
+const previewData = [
+  {
+    to    : '/drawings',
+    src   : '/img/home/oilportraits.jpg',
+    title : 'Oil Portraits'
+  }, {
+    to    : '/drawings',
+    src   : '/img/home/pixelart.jpg',
+    title : 'Pixel Art'
+  }, {
+    to    : '/drawings',
+    src   : '/img/home/illustrations.jpg',
+    title : 'Illustrations'
+  }, {
+    to    : '/drawings',
+    src   : '/img/home/drawings.jpg',
+    title : 'Drawings'
+  }
+];
+
+const HomeWrapper = styled.div`
+  margin-top: 2px;
+`
 
 export class Home extends Component {
   render() {
-    const sm = { span: 8, offset: 0 }
-
     return(
-      <Wrapper>
-        <Section>
-          <SecondaryTitle center>Featured Work</SecondaryTitle>
-        </Section>
-      </Wrapper>
+      <HomeWrapper>
+        { previewData.map(CategoryMappedFunction) }
+      </HomeWrapper>
     )
   }
 };

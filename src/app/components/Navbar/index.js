@@ -78,18 +78,16 @@ const CustomLink = styled(NavLink)`
   }
 `
 
-const Navbar = () => {
+export const Navbar = ({ location }) => {
   const { width } = UseWindowDimensions();
-
-  const mode   = (width <= R_SIZE) ? 'inline' : 'horizontal';
-  const path   = window.location.pathname;
+  const mode      = (width <= R_SIZE) ? 'inline' : 'horizontal';
+  
   let selected = [];
 
-  switch (path) {
-    // case '/': {
-    //   break;
-    // }
-    case '/':
+  switch (location.pathname) {
+    case '/': {
+      break;
+    }
     case '/paintings/portraits': {
       selected = [ 'OilPortraits' ];
       break;
@@ -117,7 +115,7 @@ const Navbar = () => {
 
   return (
     <CustomLayoutHeader>
-      <Menu theme="light" defaultSelectedKeys={ selected } mode={ mode } style={{ lineHeight: '64px', border: 0 }}>
+      <Menu theme="light" selectedKeys={ selected } mode={ mode } style={{ lineHeight: '64px', border: 0 }}>
         <CustomSubmenuItem title="Paintings">
           <CustomMenuItem key="PixelArt">
             <CustomLink to="/paintings/pixel-art">Pixel Art</CustomLink>
@@ -142,6 +140,3 @@ const Navbar = () => {
     </CustomLayoutHeader>
   )
 }
-
-
-export default Navbar

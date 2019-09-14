@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 import Masonry from 'react-masonry-css';
 import { Helmet } from 'react-helmet';
 // custom componentes
-import { MainTitle, Section, Wrapper, Paragraph } from '../../components/ui';
+import { MainTitle, Section, Wrapper } from '../../components/ui';
 // custom function
 import { GalleryMappedFunction } from '../../utils';
 // detail
@@ -18,23 +18,6 @@ export class PixelArt extends Component {
       default: 2,
       659: 1
     };
-
-    /*
-      <Paragraph>
-        Pixel<br></br>
-        or<br></br>
-        Pixels...<br></br>
-        A Pixel is the smallest homogeneous unit of color of a digital image.<br></br>
-        I’ve been obsessed trying to reproduce pixelated images with pigments for months. This
-        ambition led me to paint compulsively...<br></br>
-        At first, it seemed that small units of matter were graciously scattered around through the
-        canvas. This resulted in an endless colour variable. In the end, what I see is an image
-        composed of infinite combinations of hue, value and saturation...<br></br>
-        The eye reconstructs that which vanishes... but we are no longer able to see the image as
-        a whole.<br></br>
-        In the long run, only colour remains...
-      </Paragraph>
-    */
 
     return (
       <Wrapper>
@@ -58,7 +41,10 @@ export class PixelArt extends Component {
         </Helmet>
 
         <Section>
-          <MainTitle>Paintings<br></br>Pixel Art</MainTitle>
+          <MainTitle>
+            <small>Paintings</small>
+            Pixel Art
+          </MainTitle>
 
           <Masonry breakpointCols={ breakpointColumnsObj } className="my-masonry-grid" columnClassName="my-masonry-grid_column">
             { pixelArtDetail.map(GalleryMappedFunction) }
