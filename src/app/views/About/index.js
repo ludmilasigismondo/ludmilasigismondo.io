@@ -142,24 +142,23 @@ export class About extends Component {
             <Row>
               <Col sm={{ span: 22, offset: 2 }} md={{ span: 20, offset: 4 }} lg={{ span: 18, offset: 6 }}>
                 <Paragraph>
-                  I was born in Rosario, Santa Fe province, Argentina in 1990.
-                  Since my father is an artist I spent most of my childhood
-                  surrounded by paintings and art books.
-                  In my house there were paint stains everywhere.
-                  I spent my daily life in my father's atelier and this gave me
-                  the opportunity to experiment with various materials.
-                  In this sense, painting was very much like a game for
-                  me and I enjoyed it greatly.
+                  Born in Rosario, Argentina in 1990, the daughter of an artist,
+                  Ludmila spent her formative years surrounded by paintings,
+                  art publications and paint stains covering the house. Her 
+                  childhood greatly contributed to her current style and
+                  passion for creating art. Spending each day in her father’s studio
+                  gave her the opportunity and the means to experiment with various
+                  materials and refine her own style. It is for this reason that she
+                  saw painting as more of a game, entertaining her throughout
+                  her childhood and adolescence.
                   <br></br><br></br>
-                  This environment was a decisive influence, leading me later to
-                  embark on a career in Fine Arts at university.
-                  Later on, those early experiences with oil painting helped me
-                  in my studies enormously.
-                  <br></br><br></br>
-                  College provided me the opportunity to improve my skills and
-                  learn from both teachers and classmates.
-                  It was in those college years that I painted my 
-                  <i>"Pixel Art"</i> and <i>"Nocturnal Portraits"</i> series.
+                  Having been influenced so strongly by this environment Ludmila
+                  decided to pursue a career in Fine Arts, starting with University.
+                  All the time she had spent with oil painting growing up, became a
+                  defining factor in aiding her University studies. Whilst at University she was provided
+                  with the opportunity to enhance her skills and learn from teachers and fellow classmates.
+                  It is here that she was inspired to create her <i>‘Pixel Art’</i> and <i>‘Nocturnal Portraits’</i> series.
+                  <span>— Victoria Ellison</span>
                 </Paragraph>
               </Col>
             </Row>

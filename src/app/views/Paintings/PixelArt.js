@@ -1,8 +1,14 @@
 import React, { Component } from 'react';
+import { Row, Col } from 'antd';
 import Masonry from 'react-masonry-css';
 import { Helmet } from 'react-helmet';
 // custom componentes
-import { MainTitle, Section, Wrapper } from '../../components/ui';
+import {
+  MainTitle,
+  Paragraph,
+  Section,
+  Wrapper
+} from '../../components/ui';
 // custom function
 import { GalleryMappedFunction } from '../../utils';
 // detail
@@ -45,6 +51,27 @@ export class PixelArt extends Component {
             <small>Paintings</small>
             Pixel Art
           </MainTitle>
+
+          <Row>
+            <Col sm={{ span: 22 }} md={{ span: 20 }} lg={{ span: 18 }}>
+              <Paragraph>
+              What is a Pixel? The smallest homogeneous unit of colour making up a digital image.
+              <br></br><br></br>
+              When at University Pixels became an obsession of mine. It soon became my ambition to create
+              a series of work that reproduced this pixelated effect using oil paints. I had to create this digital
+              reality as a way of blurring the lines between photography and traditional painting styles.
+              <br></br><br></br>
+              At first glance pixels are nothing more than small units of matter, randomly dispersed over a
+              canvas. They form images composed of three components: ink, value and saturation. This
+              combination ultimately forms variations of colour which the eye then reconstructs, to form an
+              image in its entirety. The only constant in this complex visual process is the perception of
+              colour, which makes up the images which we all know and enjoy.
+              <br></br><br></br>
+              Through my art, what I aim to do is recreate the pixelated form; that which occurs before the
+              brain has had time to process a final image.
+              </Paragraph>
+            </Col>
+          </Row>
 
           <Masonry breakpointCols={ breakpointColumnsObj } className="my-masonry-grid" columnClassName="my-masonry-grid_column">
             { pixelArtDetail.map(GalleryMappedFunction) }

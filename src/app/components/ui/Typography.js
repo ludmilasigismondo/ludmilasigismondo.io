@@ -28,4 +28,13 @@ export const Paragraph = styled.p`
   font-size      : 16px;
   letter-spacing : .3px;
   margin-bottom  : 40px;
+
+  & span {
+    display      : block;
+    text-align   : right;
+    font-size    : 14px;
+    font-style   : italic;
+    margin-right : 4px;
+    margin-top   : 11px;
+  }
 `;

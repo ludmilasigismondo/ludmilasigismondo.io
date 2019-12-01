@@ -38,6 +38,13 @@
   ],
   "thisIsNotALoveStoryDetail": [
     {
+      "src"      : "/img/illustrations/8.jpg",
+      "title"    : "Bird eyes",
+      "year"     : "2017",
+      "type"     : "Watercolor on paper",
+      "messures" : "42 x 30 cm"
+    },
+    {
       "src"      : "/img/illustrations/6.jpg",
       "title"    : "Rumpture",
       "year"     : "2017",
@@ -48,13 +55,6 @@
       "src"      : "/img/illustrations/7.jpg",
       "title"    : "Mourning",
       "year"     : "2016",
-      "type"     : "Watercolor on paper",
-      "messures" : "42 x 30 cm"
-    },
-    {
-      "src"      : "/img/illustrations/8.jpg",
-      "title"    : "Bird eyes",
-      "year"     : "2017",
       "type"     : "Watercolor on paper",
       "messures" : "42 x 30 cm"
     }
